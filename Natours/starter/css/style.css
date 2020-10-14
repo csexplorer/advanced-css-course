@@ -6,3 +6,75 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
+
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #777;
+  line-height: 1.7;
+  padding: 30px;
+}
+
+.header {
+  height: 90vh;
+  background-image: linear-gradient(#7ed56fcb, #28b48563),
+    url("../img/hero.jpg");
+  background-position: top;
+  background-size: cover;
+  position: relative;
+
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.logo {
+  height: 36px;
+}
+
+.text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.main-text {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.main-text-primary {
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 35px;
+}
+
+.main-text-secondary {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 17.4px;
+}
